@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .center{
+            text-align: center;
+        }
+        .search{
+            margin-bottom:15px;
+            background-color: lightgray;
+        }
+        
+        .links{
+            display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+        }
+        
+        .row1{
+            display: table-cell;
+            text-align: center;
+    background-color:aqua; /*Optional*/
+        }
+        
+        .row2{
+            display: table-cell;
+            text-align: center;
+    background-color:aqua; /*Optional*/     
+        }
+        
+        .row3{
+            display: table-cell;
+            text-align: center;
+    background-color: aqua; /*Optional*/  
+        }
+        .footer{
+            text-align: center;
+
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="center">
+        <img src="/google.jpg">
+    </div>
+
+    <div class="center search">
+        <p>Search the web using Google!</p>
+        <input type="text" size="40"> <br>
+        <button>Google Search</button><button>I'm Feeling Lucky</button>
+    </div>
+    <div class="links">
+        <div class="row1">
+            Special searches<br>
+            <a href="#">Stanford Search</a><br>
+            <a href="#">Linux Search</a>
+        </div>
+        <div class="row2">
+            <a href="#">Help!</a><br>
+            <a href="#">About Google</a><br>
+            <a href="#">Conpany Info</a><br>
+            <a href="#">Google Logos</a>
+        </div>
+        <div class="row3">
+            Get Google!<br>
+            updates monthly:<br>
+            <input type="email" placeholder="your e-mail"><br>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright C 1998 Google Inc.
+    </div>
+</body>
+</html>
